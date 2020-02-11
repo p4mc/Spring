@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Bank.java&apos; to &apos;AspectJ/src/co.edureka&apos;&#x0D;&#x0A;- Original project: &apos;AOP&apos;&#x0D;&#x0A;- Destination element: &apos;AspectJ/src/co.edureka&apos;&#x0D;&#x0A;- Original element: &apos;co.edureka.Bank.java&apos;" description="Copy compilation unit" destination="=AspectJ/src=/optional=/true=/=/maven.pomderived=/true=/&lt;co.edureka" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;co.edureka{Bank.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1580873480335" units="1" version="1.0"/>
+</session>

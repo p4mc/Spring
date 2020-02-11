@@ -1,0 +1,10 @@
+class Main 
+{
+	public static void main(String[] args) 
+	{
+		Student stud1 = new Student();
+		Student stud2 = new Student("Edureka");
+		st1.sayHello();
+		st2.sayHello();
+	}
+}

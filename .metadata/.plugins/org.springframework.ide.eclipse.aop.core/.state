@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="AspectJ">
+<aspect-definition advice-class-name="co.edureka.Logger" advice-method-name="log" advice-type="BEFORE" aspect-end-line-number="17" aspect-name="logger" aspect-start-line-number="17" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/AspectJ/src/context.xml" pointcut-expression="execution(void co.edureka.Bank.deposit(..))" proxy-target-class="false">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:AspectJ|3:src/context.xml|7:beans:6|8:bank:8" bean-file="/AspectJ/src/context.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/AspectJ/src/context.xml" source="=AspectJ/src=/optional=/true=/=/maven.pomderived=/true=/&lt;co.edureka{Logger.java[Logger~log" source-start-line="6" target="=AspectJ/src=/optional=/true=/=/maven.pomderived=/true=/&lt;co.edureka{Bank.java[Bank~deposit~QString;~D" target-start-line="9"/>
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:AspectJ|3:src/context.xml|7:beans:6|8:bank:8" bean-file="/AspectJ/src/context.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/AspectJ/src/context.xml" source="=AspectJ/src=/optional=/true=/=/maven.pomderived=/true=/&lt;co.edureka{Logger.java[Logger~log" source-start-line="6" target="=AspectJ/src=/optional=/true=/=/maven.pomderived=/true=/&lt;co.edureka{Bank.java[Bank~deposit" target-start-line="5"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="Inheritance"/>
+<aop-project name="Lifecycle"/>
+<aop-project name="AOP"/>
+<aop-project name="IoC"/>
+<aop-project name="Jdbc"/>
+<aop-project name="Collections"/>
+</aop-reference-model>
