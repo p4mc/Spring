@@ -7,6 +7,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Module11_Assignment"/>
+			<item value="Assignment11"/>
 			<item value="Jdbc"/>
 			<item value="AspectJ"/>
 			<item value="AOP"/>

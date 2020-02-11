@@ -1,10 +1,7 @@
 package co.edureka;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,8 +22,8 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	 }
 	
 	@Override
-	public void saveEmp(Employee emp) {
-		String sql = "insert into emp values("+emp.getEmpno()+",'"+emp.getEname()+"',"+emp.getSal()+")";
+	public void saveEmp(Employee emp1) {
+		String sql = "insert into emp values("+emp1.getEmpno()+",'"+emp1.getEname()+"',"+emp1.getSal()+")";
 		int n = jt.update(sql);
 		if(n>0)
 			System.out.println(">>>Employee Saved!");
@@ -34,8 +31,8 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 	}
 
 	@Override
-	public void updateEmp(Employee emp){
-		String sql = "update emp set ename='"+emp.getEname()+"',sal="+emp.getSal()+" where empno="+emp.getEmpno();
+	public void updateEmp(Employee emp1){
+		String sql = "update emp set ename='"+emp1.getEname()+"',sal="+emp1.getSal()+" where empno="+emp1.getEmpno();
 		int n = jt.update(sql);
 		if(n>0)
 			System.out.println(">>>Employee Updated!");
@@ -56,7 +53,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 
 	@Override
 	public List<Employee> getEmployees(){
-		String sql="select * from emp";
+		String sql="select * from emp1";
 		
 		List<co.edureka.Employee> l = jt.query(sql, new ResultSetExtractor<java.util.List<Employee>>(){
 			public List<Employee> extractData(ResultSet rs) throws SQLException,DataAccessException{
