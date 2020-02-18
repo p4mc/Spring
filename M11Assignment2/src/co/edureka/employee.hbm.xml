@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+ <class name="co.edureka.Employee" table="emp1">
+ 	<cache usage="read-only"/>
+   <id name="empno" column="empno">
+     <generator class="assigned" />
+   </id>
+   <property name="ename" />
+   <property name="basic" />
+   <property name="hra"/>
+   <property name="da"/>
+   <property name="deduction"/>
+ </class>
+</hibernate-mapping>

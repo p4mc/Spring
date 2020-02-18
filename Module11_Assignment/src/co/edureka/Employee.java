@@ -4,15 +4,11 @@ public class Employee {
 	private int empno;
 	private String ename;
 	private int basic, hra, da, deduction;
-
-	
-	
 	
 	public Employee() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-
 
 	public Employee(int empno, String ename, int basic, int hra, int da, int deduction) {
 		super();
@@ -22,14 +18,11 @@ public class Employee {
 		this.hra = hra;
 		this.da = da;
 		this.deduction = deduction;
-
 	}
-
 
 	public int getEmpno() {
 		return empno;
 	}
-
 	public void setEmpno(int empno) {
 		this.empno = empno;
 	}
@@ -57,10 +50,6 @@ public class Employee {
 	public void setDeduction(int deduction) {
 		this.deduction = deduction;
 	}
-	
-	public String getEname(String ename) {
-		return ename;
-	}
 	public String getEname() {
 		return ename;
 	}
@@ -68,13 +57,9 @@ public class Employee {
 		this.ename = ename;
 	}
 
-
 	@Override
 	public String toString() {
 		return "Employee [empno=" + empno + ", ename=" + ename +", basic=" + basic + ", hra=" + hra + ", da=" + da + ", deduction="
 				+ deduction + "]";
 	}
-	
-	
-
 }
