@@ -11,7 +11,7 @@ public class Main {
 		ApplicationContext context = new ClassPathXmlApplicationContext("context.xml");
 		EmployeeDAO dao = (EmployeeDAO)context.getBean("empdao");
 		
-		Employee emp = new Employee(104, "Adrianne", 12345.5f);
+		Employee emp = new Employee(105, "Laya", 12345.5f);
 		dao.saveEmp(emp);
 		
 		List<Employee> emps = dao.getEmployees();
